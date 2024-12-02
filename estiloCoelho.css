@@ -1,0 +1,188 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #D32F2F;
+}
+
+header .logo img {
+  height: 80px; /* Aumenta a altura da logo */
+  max-height: 100px; /* Define um limite máximo */
+  width: auto; /* Mantém a proporção */
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+/* Sobre Nós */
+.sobre-nos {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.sobre-nos h2 {
+  color: #D32F2F;
+}
+
+.sobre-nos img {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+/* Onde Ficamos */
+.onde-ficamos {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.onde-ficamos iframe {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+.onde-ficamos .botao {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #D32F2F;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Feedback */
+.feedback {
+  padding: 2rem 1rem;
+}
+
+.feedback form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.feedback label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.feedback input, .feedback textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback .botao {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #D32F2F;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer .social a img {
+  height: 30px;
+  margin: 0 0.5rem;
+}
+
+/* Justificar texto na seção Sobre Nós */
+.sobre-nos p {
+  text-align: justify;
+}
+
+/* Redes Sociais */
+.redes-sociais {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.redes-sociais h2 {
+  color: #D32F2F;
+  margin-bottom: 1rem;
+}
+
+.redes-sociais p {
+  margin-bottom: 1.5rem;
+}
+
+.redes-sociais ul {
+  list-style: none;
+  padding: 0;
+}
+
+.redes-sociais ul li {
+  margin-bottom: 1rem; /* Espaçamento entre os botões */
+}
+
+/* Botões (usado também nas Redes Sociais) */
+.botao {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  background-color: #D32F2F;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #b02525; /* Vermelho mais escuro no hover */
+}
